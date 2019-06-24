@@ -1,5 +1,9 @@
-# earth-moon-vr
-
+## 安装
+$ git clone https://github.com/PiersZhang/reactVR.git
+$ cd reactVR
+$ npm install
+$ npm start
+$ 浏览器打开`http://localhost:8081/vr`
 ## 关于React 360
 React 360是一个创建3D和VR用户交互的框架.构建在React的基础之上，React是一个简化复杂UI创建的库，React 360可以让你用相似的工具和概念在网页上创建沉浸式的360度的内容。
 ## React 360和React VR有啥区别？
