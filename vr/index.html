@@ -1,0 +1,26 @@
+<!-- 这个是连接浏览器到你的react应用的代码，也就是运行时Runtime.
+
+每个React 360应用程序由两部分组成：您的React应用程序，以及将您的React组件转换为屏幕上的3D元素的代码。 
+我们将后者称为“运行时”。这种角色划分直接来自React Native，并且由于非常相似的原因而被使用。 -->
+<html>
+  <head>
+    <title>EarthMoonVR</title>
+    <style>body { margin: 0; }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <!-- When you're ready to deploy your app, update this line to point to your compiled client.bundle.js -->
+    <script src="./client.bundle?platform=vr"></script>
+    <script>
+      // Initialize the React VR application
+      ReactVR.init(
+        // When you're ready to deploy your app, update this line to point to
+        // your compiled index.bundle.js
+        '../index.vr.bundle?platform=vr&dev=true',
+        // Attach it to the body tag
+        document.body
+      );
+    </script>
+  </body>
+</html>
+
