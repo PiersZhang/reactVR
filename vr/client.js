@@ -1,8 +1,3 @@
-// Auto-generated content.
-// This file contains the boilerplate to set up your React app.
-// If you want to modify your application, start in "index.vr.js"
-
-// Auto-generated content.
 // 这个是连接浏览器到你的react应用的代码，也就是运行时Runtime.
 // 这个文件做了三件事：
 // 1、创建一个React 360的实例，加载而react代码，同时依附在DOM的一个特殊地方（节点div等）.
